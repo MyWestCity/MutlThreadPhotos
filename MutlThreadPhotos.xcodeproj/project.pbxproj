@@ -12,6 +12,7 @@
 		CB1F65721F16FB800020ADD1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CB1F65711F16FB800020ADD1 /* ViewController.m */; };
 		CB1F65771F16FB810020ADD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB1F65761F16FB810020ADD1 /* Assets.xcassets */; };
 		CB1F657A1F16FB810020ADD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB1F65781F16FB810020ADD1 /* LaunchScreen.storyboard */; };
+		CB4EA5721F27599E006EEA61 /* TestClass.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4EA5711F27599E006EEA61 /* TestClass.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		CB1F65761F16FB810020ADD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB1F65791F16FB810020ADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB1F657B1F16FB810020ADD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB4EA5701F27599E006EEA61 /* TestClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestClass.h; sourceTree = "<group>"; };
+		CB4EA5711F27599E006EEA61 /* TestClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestClass.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 				CB1F656E1F16FB800020ADD1 /* AppDelegate.m */,
 				CB1F65701F16FB800020ADD1 /* ViewController.h */,
 				CB1F65711F16FB800020ADD1 /* ViewController.m */,
+				CB4EA5701F27599E006EEA61 /* TestClass.h */,
+				CB4EA5711F27599E006EEA61 /* TestClass.m */,
 				CB1F65761F16FB810020ADD1 /* Assets.xcassets */,
 				CB1F65781F16FB810020ADD1 /* LaunchScreen.storyboard */,
 				CB1F657B1F16FB810020ADD1 /* Info.plist */,
@@ -147,6 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB4EA5721F27599E006EEA61 /* TestClass.m in Sources */,
 				CB1F65721F16FB800020ADD1 /* ViewController.m in Sources */,
 				CB1F656F1F16FB800020ADD1 /* AppDelegate.m in Sources */,
 				CB1F656C1F16FB800020ADD1 /* main.m in Sources */,
@@ -302,6 +308,7 @@
 				CB1F65801F16FB810020ADD1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
