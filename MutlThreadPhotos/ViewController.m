@@ -19,6 +19,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    NSLog(@"测试是否添加了新的");
     // Do any additional setup after loading the view, typically from a nib.
     [self.arrayImageUrl addObject:@"http://img.taopic.com/uploads/allimg/140326/235113-1403260U22059.jpg"];
     [self.arrayImageUrl addObject:@"http://img1.3lian.com/2015/w7/85/d/21.jpg"];
